@@ -1,0 +1,19 @@
+A Program to show how to configure scope of the bean using Java configuration file:
+Programs:
+* Employee.java
+* Student.java
+* AppConfig.java
+* Test.java
+Note:
+* @Scope annotation is used to change the scope of the bean.
+* @Scope annotation can be used at class level and method level.
+* If we didn't mention the @Scope annotation at class level or method level then that bean has default scope as singleton.
+Output:
+Employee Bean Hashcodes
+758013696
+758013696
+758013696
+Student Bean Hashcodes
+1473611564
+107456312
+921760190

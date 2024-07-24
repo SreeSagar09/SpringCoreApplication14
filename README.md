@@ -1,0 +1,1 @@
+A Program to show how to configure scope of the bean using Java configuration file:
